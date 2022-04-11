@@ -1,2 +1,2 @@
-# Discord-Bot---Github-Version
+# MardBot
 My Discord Bot
