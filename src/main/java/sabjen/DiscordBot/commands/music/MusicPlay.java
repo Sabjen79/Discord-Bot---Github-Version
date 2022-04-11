@@ -66,7 +66,7 @@ public class MusicPlay extends Command {
         if(!finalUrl.startsWith("http")) {
             try {
                 String url = "https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&order=relevance&q="
-                        + finalUrl.replaceAll(" ", "+") 
+                        + finalUrl.replaceAll(" ", "+")
                         + "YOUTUBE-KEY-HERE";
                 String videoId = JsonReader.readJsonFromUrl(url).getJSONArray("items").getJSONObject(0).getJSONObject("id").getString("videoId");
 

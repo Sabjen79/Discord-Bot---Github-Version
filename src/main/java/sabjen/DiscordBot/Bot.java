@@ -65,8 +65,8 @@ public class Bot implements net.dv8tion.jda.api.hooks.EventListener {
         config = new BotConfiguration();
         timers = new BotTimers(jda);
 
-        YoutubeHttpContextFilter.setPAPISID("tY4MP2xSaIBSCDzf/AjrsT0dmMLG2F7-gd");
-        YoutubeHttpContextFilter.setPSID("FwhLXGSv-_K2GQZzz3JaHWkf_m0AwJWJILSqwe_-BwG-CqgOznwXZKKQOfDRtMBkz3e7eA.");
+        YoutubeHttpContextFilter.setPAPISID("");
+        YoutubeHttpContextFilter.setPSID("");
     }
 
     @Override
